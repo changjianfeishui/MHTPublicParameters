@@ -7,7 +7,7 @@
 
 #import "MHTPublicParameters.h"
 #import "UIDevice+MHTDeviceInfo.h"
-#import "MHTRunTimeEnvironment.h"
+#import <MHTRunTimeEnvironment/MHTRunTimeEnvironment.h>
 #import "AFNetworking.h"
 
 NSString *const kAuthTime = @"/proxy/auth/time";
