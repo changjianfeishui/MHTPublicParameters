@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MHTPublicParameters_Example' do
+  pod 'MHTPublicParameters', :path => '../'
+
+  target 'MHTPublicParameters_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
