@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MHTPublicParameters'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '棉花糖公参.'
 
 # This description is used to generate tags and improve search results.
