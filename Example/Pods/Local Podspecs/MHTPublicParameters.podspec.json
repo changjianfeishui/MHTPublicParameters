@@ -1,0 +1,31 @@
+{
+  "name": "MHTPublicParameters",
+  "version": "0.1.0",
+  "summary": "棉花糖公参.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/changjianfeishui/MHTPublicParameters",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "changjianfeishui": "329735967@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/changjianfeishui/MHTPublicParameters.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "MHTPublicParameters/Classes/**/*",
+  "frameworks": "Security",
+  "dependencies": {
+    "MHTRunTimeEnvironment": [
+
+    ],
+    "AFNetworking": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_MHTPublicParameters_Tests {
+  umbrella header "Pods-MHTPublicParameters_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

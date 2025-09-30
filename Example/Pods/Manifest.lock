@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - MHTPublicParameters (0.1.0):
+    - AFNetworking
+    - MHTRunTimeEnvironment
+  - MHTRunTimeEnvironment (0.1.4)
+
+DEPENDENCIES:
+  - MHTPublicParameters (from `../`)
+
+SPEC REPOS:
+  https://github.com/changjianfeishui/mht-specs:
+    - MHTRunTimeEnvironment
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  MHTPublicParameters:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  MHTPublicParameters: 5bb04a0d488a4795f05e792317614d2c47d45049
+  MHTRunTimeEnvironment: a9090675fc0f6464b27caf3809aabcf0f98b0871
+
+PODFILE CHECKSUM: fd9607c1842242931bee566a9309e3a827698f8e
+
+COCOAPODS: 1.16.2
